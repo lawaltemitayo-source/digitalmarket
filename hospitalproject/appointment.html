@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+           Book Appointment
+        </title>
+    </head>
+ <body>
+  
+ 
+    <header>
+    <h1 style="color: #00698f;">Book an Appointment</h1>
+    <nav style="background-color: #f0f0f0; padding: 10px; text-align: center;">
+      <a href="index.html">Home</a> |
+      <a href="department.html">Departments</a> |
+      <a href="appointment.html">Book an Appointment</a> |
+      <a href="about.html">About Us</a>
+    </nav>
+        
+    <p style="font-size: 18px; color: #333;">To book an appointment, please fill out the form below. We will get back to you shortly.</p>
+  
+  
+  <form style="width: 50%; margin: 0 auto; padding: 20px; border: 1px solid #ccc; border-radius: 10px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">
+    <label for="full-name">Full Name:</label>
+    <input type="text" id="full-name" style="width: 100%; padding: 10px; margin-bottom: 20px; border: 1px solid #ccc;" required>
+    
+    <label for="date-of-birth">Date of Birth:</label>
+    <input type="date" id="date-of-birth" style="width: 100%; padding: 10px; margin-bottom: 20px; border: 1px solid #ccc;" required>
+    
+    <label for="contact-number">Contact Number:</label>
+    <input type="tel" id="contact-number" style="width: 100%; padding: 10px; margin-bottom: 20px; border: 1px solid #ccc;" required>
+    
+    <label for="department">Department:</label>
+    <select id="department" style="width: 100%; padding: 10px; margin-bottom: 20px; border: 1px solid #ccc;" required>
+      <option value="">Select a department</option>
+      <option value="General Medicine">General Medicine</option>
+      <option value="Pediatrics">Pediatrics</option>
+      <option value="Surgery">Surgery</option>
+      <option value="Emergency Care">Emergency Care</option>
+      <option value="Cardiology">Cardiology</option>
+    </select>
+    
+    <label for="preferred-date">Preferred Date:</label>
+    <input type="date" id="preferred-date" style="width: 100%; padding: 10px; margin-bottom: 20px; border: 1px solid #ccc; " required>
+    
+    <label for="comments">Comments/Concerns:</label>
+    <textarea id="comments" style="width: 100%; padding: 10px; margin-bottom: 20px; border: 1px solid #ccc;" required></textarea>
+    
+    <input type="submit" value="Book Appointment" style="background-color: #00698f; color: #fff; padding: 10px 20px; border: none; border-radius: 10px; cursor: pointer;">
+  </form>
+  
+
+</body>
+  </html> 

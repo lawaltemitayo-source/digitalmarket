@@ -1,0 +1,247 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+}
+
+
+#header {
+    background: linear-gradient(to bottom, #0d47a1, #42a5f5);
+    color: #ffffff;
+    font-size: 24px;
+    padding: 20px;
+    text-align: right;
+}
+
+
+.top-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img {
+    height:auto;
+}
+
+.nav-menu {
+    /*background-color: #1e88e5;*/
+    color: #ffffff;
+    font-size: 18px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-menu ul {
+    margin: 0;
+    padding: 0;
+    text-align: right ;
+}
+
+.nav-menu li {
+    margin-right: 20px;
+    list-style-type:none;
+}
+
+.nav-menu a {
+
+    text-decoration: none;
+     margin: 0 15px;
+     font-weight: bold;
+     transition:color 2.0s;
+     margin-right: 20px;
+     text-align: right;
+}
+
+.nav-menu a :hover{
+    background-color: white;
+    width: 200px;
+    border-radius: 3px;
+    padding: 10px;
+    display: flex;
+}
+#main-content {
+    background-color: #f5f5f5;
+    color: #333333;
+    font-size: 16px;
+    padding: 40px;
+}
+
+
+.about-us {
+    background-color: #ffffff;
+    color: #424242;
+    padding: 30px;
+    text-align: left;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 20px; 
+}
+
+.about-us h2 {
+    font-size: 50px;
+    margin-bottom: 10px;
+
+       
+    
+}
+
+.about-us p{
+    line-height: 32px;
+}
+
+.services {
+    background-color:#e3f2fd;
+     color: #0d47a1;
+     border: 1px solid #90caf9;
+     grid-column-start: auto;
+}
+
+.services h2{
+    text-align: center;
+    font-size: 45pt;
+    margin-top:30px;
+    margin-bottom: 30px;
+    text-transform: capitalize;
+    
+}
+
+.services p{
+    text-align: center;
+    line-height: 32px;
+    margin-top: 2px;
+    padding: 20px;
+}
+.services h3{
+    font-size: 30px;
+    padding: 20px;
+}
+    .three-column-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr; 
+        gap: 20px; 
+    }
+    .two-column-grid{
+          background-color: white;
+         color: #666666;
+         padding: 30px;
+         display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 20px; 
+
+    }
+    .testimonials h2{
+        text-align: center;
+        font-size: 45pt;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        text-transform: capitalize;
+    }
+
+    .testimonials p{
+        line-height: 32px;
+        text-align: left;
+    }
+
+    .testimonials h4{
+        color:#0d47a1;
+        text-transform: uppercase;
+        font-weight: normal;
+        letter-spacing: 7px;
+        margin-top:12px;
+    }
+    #contact-us{
+        background-color: lightblue;
+        color: mediumblue;
+        padding: 30px;
+        text-align: center;
+
+
+    }
+    #contact-us h2{
+        font-size: 32pt;
+    }
+    #contact-us form{
+        width: 100%;
+        margin: o auto;
+        padding: 10px;
+        border: 1px solid #ccc;
+        margin-bottom: 20px;
+
+    }
+    #footer{
+        background-color: darkblue;
+        color: white;
+        padding: 20px;
+        font-size: 14px;
+        text-align: center;
+    }
+    #footer a{
+        color: white;
+        font-weight: bold;
+    }
+    .cta-button{
+        background-color: #ff416c;
+        color: white;
+        padding: 10px 20px;
+        text-decoration: none;
+        border-radius: 25px;
+        font-weight: bold;
+    }
+    .cta-button{
+        background-color: #ff4b2b   ;
+    }
+
+    input[type="text"]{
+        width:300px;
+        height:40px;
+        color:black;
+        border-radius:3px;
+        padding: 4px;
+        border: 1px solid #ccc;
+    }
+
+    input[type="tel"]
+    {
+        width:300px;
+        height:40px;
+        color:black;
+        border-radius:3px;
+        padding: 4px;
+        border: 1px solid #ccc;
+        
+    }
+    textarea{
+        width:500px;
+        height: 200px;
+        border: 1px solid #ccc;
+        padding:3px;
+    }
+input[type="submit"]{
+    background-color: #0d47a1;
+    width:100px;
+    color: white;
+    height: 50px;
+    border: 1px solid #0d47a1;
+    font-weight: bold;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-size: 16px;
+    cursor:pointer;
+}
+
+footer ul{
+    display: flex;
+    margin-left:500pt;
+    margin-bottom: 20px;
+
+}
+footer li{
+    list-style-type: none;
+    justify-content: center ;
+    margin-left: 30px;
+    align-items: center;
+}
